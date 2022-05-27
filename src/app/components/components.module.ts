@@ -10,7 +10,7 @@ import { AddTodoComponent } from './add-todo/add-todo.component';
     CommonModule
   ],
   declarations: [
-   AddTodoComponent
+    AddTodoComponent
   ],
   exports : [ 
     AddTodoComponent

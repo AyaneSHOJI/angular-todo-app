@@ -1,2 +1,6 @@
-<input #newTodo type="text" placeholder="Add new todo item..."
-(keyup.enter)="addTodo(newTodo.value);newTodo.value='' ">
+
+<div class="app-add-todo-div">
+    <input #newTodo type="text" placeholder="Add new todo item..."
+    (keyup.enter)="addTodo(newTodo.value);newTodo.value='' " id="input">
+    <button (click)="addTodo(newTodo.value);newTodo.value='' " id="add-btn">Add</button>
+</div>

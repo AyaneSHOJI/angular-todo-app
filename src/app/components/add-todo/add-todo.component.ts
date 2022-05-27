@@ -12,7 +12,7 @@ export class AddTodoComponent implements OnInit {
   ngOnInit() {
   }
 
-  addTodo(todo: any){
+  addTodo(todo:string){
     this.addTodoChange.next(todo);
   }
 
