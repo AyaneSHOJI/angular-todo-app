@@ -44,4 +44,15 @@ input[type="text"]{
 
 h1{
     font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+img{
+    width:10%;
+    margin: 5px;
+    display: flex;
+ 
 }

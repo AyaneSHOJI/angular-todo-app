@@ -1,5 +1,10 @@
 <div class="doit-wrapper">
-  <h1>ToDo App with Angular</h1>
+  <div>
+    <h1>ToDo App with Angular
+      <img src="assets/images/logo.png" alt="angular-logo">
+    </h1>
+  </div>
+  <!--Insert an image : DO NOT USE relative path ! Angular is a Single Page Application, the only page is "index.html" and usual relative path from a specific component does not work-->
   <div class="doit-inner-wrapper">
     <app-add-todo (addTodoChange)="addTodo($event)"></app-add-todo> 
     <div *ngFor="let todo of data.todos">
