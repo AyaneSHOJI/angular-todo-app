@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-add-todo',
@@ -9,7 +9,12 @@ export class AddTodoComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit() {
   }
 
+  addTodo(todo: any){
+    this.addTodoChange.next(todo);
+  }
+
+  @Output() addTodoChange = new EventEmitter();
 }

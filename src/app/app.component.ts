@@ -13,6 +13,7 @@ export interface AppData {
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+
 export class AppComponent {
   data: AppData = {
     todos: [
@@ -25,12 +26,13 @@ export class AppComponent {
         completed: false
       }
     ]
-  };
+  }; 
 
-  addTodo(todo: any) {
+
+  addTodo(todo: any){
     this.data.todos.push({
       title: todo,
       completed: false
-    });
+    }); 
   }
 }

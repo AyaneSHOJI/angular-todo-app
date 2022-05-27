@@ -1,8 +1,10 @@
 
 <div class="doit-wrapper">
   <div class="doit-inner-wrapper">
-    <app-add-todo></app-add-todo>  
+    <div *ngFor="let todo of data.todos">
+      {{todo.title}}
+    </div>
+    <app-add-todo (addTodoChange)="addTodo($event)"></app-add-todo>  
   </div>
 </div>
 
-<router-outlet></router-outlet>
