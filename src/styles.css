@@ -50,9 +50,8 @@ h1{
     text-align: center;
 }
 
-img{
+#logo-img{
     width:10%;
     margin: 5px;
     display: flex;
- 
 }

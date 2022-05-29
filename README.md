@@ -1,6 +1,7 @@
 
 # ToDo App with Angular
-This is a personal project for learning **Angular** and **TypeScript** by referring to this tutorial : https://medium.com/xkojimedia/building-a-simple-todo-app-using-angular-cf5f3217a526
+This is a personal project for learning **Angular** and **TypeScript** by referring to some tutorials : https://medium.com/xkojimedia/building-a-simple-todo-app-using-angular-cf5f3217a526
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.21.
 
